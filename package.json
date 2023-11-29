@@ -1,0 +1,11 @@
+{
+  "name": "simple-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "diff-dir.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shunze.chen",
+  "license": "ISC"
+}
