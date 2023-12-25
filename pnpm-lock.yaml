@@ -1,0 +1,122 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  chrome-cache-reader:
+    specifier: ^1.0.1
+    version: 1.0.1
+
+packages:
+
+  /abstract-level@1.0.3:
+    resolution: {integrity: sha512-t6jv+xHy+VYwc4xqZMn2Pa9DjcdzvzZmQGRjTFc8spIbRGHgBrEKbPq+rYXc7CCo0lxgYvSgKVg9qZAhpVQSjA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/abstract-level/-/abstract-level-1.0.3.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      buffer: 6.0.3
+      catering: 2.1.1
+      is-buffer: 2.0.5
+      level-supports: 4.0.1
+      level-transcoder: 1.0.1
+      module-error: 1.0.2
+      queue-microtask: 1.2.3
+    dev: false
+
+  /base64-js@1.5.1:
+    resolution: {integrity: sha512-AKpaYlHn8t4SVbOHCy+b5+KKgvR4vrsD8vbvrbiQJps7fKDTkjkDry6ji0rUJjC0kzbNePLwzxq8iypo41qeWA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/base64-js/-/base64-js-1.5.1.tgz}
+    dev: false
+
+  /browser-level@1.0.1:
+    resolution: {integrity: sha512-XECYKJ+Dbzw0lbydyQuJzwNXtOpbMSq737qxJN11sIRTErOMShvDpbzTlgju7orJKvx4epULolZAuJGLzCmWRQ==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/browser-level/-/browser-level-1.0.1.tgz}
+    dependencies:
+      abstract-level: 1.0.3
+      catering: 2.1.1
+      module-error: 1.0.2
+      run-parallel-limit: 1.1.0
+    dev: false
+
+  /buffer@6.0.3:
+    resolution: {integrity: sha512-FTiCpNxtwiZZHEZbcbTIcZjERVICn9yq/pDFkTl95/AxzD1naBctN7YO68riM/gLSDY7sdrMby8hofADYuuqOA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/buffer/-/buffer-6.0.3.tgz}
+    dependencies:
+      base64-js: 1.5.1
+      ieee754: 1.2.1
+    dev: false
+
+  /catering@2.1.1:
+    resolution: {integrity: sha512-K7Qy8O9p76sL3/3m7/zLKbRkyOlSZAgzEaLhyj2mXS8PsCud2Eo4hAb8aLtZqHh0QGqLcb9dlJSu6lHRVENm1w==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/catering/-/catering-2.1.1.tgz}
+    engines: {node: '>=6'}
+    dev: false
+
+  /chrome-cache-reader@1.0.1:
+    resolution: {integrity: sha512-QmcmQYy20USyN1p22ZSygihkXGuf2+22D+pm7tN56GU1+VAdTKJCjCc3ffRDYET15bQori0d4+XKHh3bZZh/SQ==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/chrome-cache-reader/-/chrome-cache-reader-1.0.1.tgz}
+    dependencies:
+      level: 8.0.0
+    dev: false
+
+  /classic-level@1.3.0:
+    resolution: {integrity: sha512-iwFAJQYtqRTRM0F6L8h4JCt00ZSGdOyqh7yVrhhjrOpFhmBjNlRUey64MCiyo6UmQHMJ+No3c81nujPv+n9yrg==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/classic-level/-/classic-level-1.3.0.tgz}
+    engines: {node: '>=12'}
+    requiresBuild: true
+    dependencies:
+      abstract-level: 1.0.3
+      catering: 2.1.1
+      module-error: 1.0.2
+      napi-macros: 2.2.2
+      node-gyp-build: 4.7.1
+    dev: false
+
+  /ieee754@1.2.1:
+    resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/ieee754/-/ieee754-1.2.1.tgz}
+    dev: false
+
+  /is-buffer@2.0.5:
+    resolution: {integrity: sha512-i2R6zNFDwgEHJyQUtJEk0XFi1i0dPFn/oqjK3/vPCcDeJvW5NQ83V8QbicfF1SupOaB0h8ntgBC2YiE7dfyctQ==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/is-buffer/-/is-buffer-2.0.5.tgz}
+    engines: {node: '>=4'}
+    dev: false
+
+  /level-supports@4.0.1:
+    resolution: {integrity: sha512-PbXpve8rKeNcZ9C1mUicC9auIYFyGpkV9/i6g76tLgANwWhtG2v7I4xNBUlkn3lE2/dZF3Pi0ygYGtLc4RXXdA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/level-supports/-/level-supports-4.0.1.tgz}
+    engines: {node: '>=12'}
+    dev: false
+
+  /level-transcoder@1.0.1:
+    resolution: {integrity: sha512-t7bFwFtsQeD8cl8NIoQ2iwxA0CL/9IFw7/9gAjOonH0PWTTiRfY7Hq+Ejbsxh86tXobDQ6IOiddjNYIfOBs06w==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/level-transcoder/-/level-transcoder-1.0.1.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      buffer: 6.0.3
+      module-error: 1.0.2
+    dev: false
+
+  /level@8.0.0:
+    resolution: {integrity: sha512-ypf0jjAk2BWI33yzEaaotpq7fkOPALKAgDBxggO6Q9HGX2MRXn0wbP1Jn/tJv1gtL867+YOjOB49WaUF3UoJNQ==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/level/-/level-8.0.0.tgz}
+    engines: {node: '>=12'}
+    dependencies:
+      browser-level: 1.0.1
+      classic-level: 1.3.0
+    dev: false
+
+  /module-error@1.0.2:
+    resolution: {integrity: sha512-0yuvsqSCv8LbaOKhnsQ/T5JhyFlCYLPXK3U2sgV10zoKQwzs/MyfuQUOZQ1V/6OCOJsK/TRgNVrPuPDqtdMFtA==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/module-error/-/module-error-1.0.2.tgz}
+    engines: {node: '>=10'}
+    dev: false
+
+  /napi-macros@2.2.2:
+    resolution: {integrity: sha512-hmEVtAGYzVQpCKdbQea4skABsdXW4RUh5t5mJ2zzqowJS2OyXZTU1KhDVFhx+NlWZ4ap9mqR9TcDO3LTTttd+g==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/napi-macros/-/napi-macros-2.2.2.tgz}
+    dev: false
+
+  /node-gyp-build@4.7.1:
+    resolution: {integrity: sha512-wTSrZ+8lsRRa3I3H8Xr65dLWSgCvY2l4AOnaeKdPA9TB/WYMPaTcrzf3rXvFoVvjKNVnu0CcWSx54qq9GKRUYg==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/node-gyp-build/-/node-gyp-build-4.7.1.tgz}
+    hasBin: true
+    dev: false
+
+  /queue-microtask@1.2.3:
+    resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/queue-microtask/-/queue-microtask-1.2.3.tgz}
+    dev: false
+
+  /run-parallel-limit@1.1.0:
+    resolution: {integrity: sha512-jJA7irRNM91jaKc3Hcl1npHsFLOXOoTkPCUL1JEa1R82O2miplXXRaGdjW/KM/98YQWDhJLiSs793CnXfblJUw==, tarball: https://artifactory.tusimple.ai:443/artifactory/api/npm/npm-infra-common/run-parallel-limit/-/run-parallel-limit-1.1.0.tgz}
+    dependencies:
+      queue-microtask: 1.2.3
+    dev: false
